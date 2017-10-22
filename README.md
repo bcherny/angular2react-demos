@@ -4,7 +4,8 @@
 
 ## Examples
 
-- [One file with multiple nested components](one-file)
+- [One file with multiple nested components (React root component)](one-file)
+- [Multi file with multiple nested components (React root component)](multi-file)
 
 ## License
 

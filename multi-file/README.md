@@ -1,4 +1,4 @@
-# One file with multiple nested components (React root component)
+# Multi-file with multiple nested components (React root component)
 
 ## DOM structure
 
@@ -14,7 +14,7 @@
 
 ```sh
 git clone git@github.com:bcherny/angular2react-demos.git
-cd angular2react-demos/one-file
+cd angular2react-demos/multi-file
 yarn
 yarn run build
 yarn run start

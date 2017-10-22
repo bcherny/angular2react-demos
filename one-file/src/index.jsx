@@ -12,7 +12,6 @@
 
 import angular from 'angular'
 import { angular2react } from 'angular2react'
-import React from 'react'
 import { render } from 'react-dom'
 import { react2angular } from 'react2angular'
 
@@ -66,7 +65,7 @@ angular
   .component('twoAngular', TwoAngular)
   .component('threeAngular', ThreeAngular)
   .component('fourAngular', FourAngular)
-  .run(['$injector', function(_$injector) { $injector = _$injector }])
+  .run(['$injector', function (_$injector) { $injector = _$injector }])
 
 angular.bootstrap(document.createElement('div'), ['Demo'])
 
